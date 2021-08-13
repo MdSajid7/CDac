@@ -1,0 +1,94 @@
+@import url('./components/login/login.style.css');
+@import url('./components/doctor/home-doctor/home-doctor.style.css');
+@import url('./components/patient/home-patient/home-patient.style.css');
+@import url('./components/pharmacist/home-pharmacist/home-pharmacist.style.css');
+@import url('./components/registration/registration.style.css');
+@import url('./components/doctor/details-for-doctor/details-for-doctor.style.css');
+@import url('./components/passwordReset/passwordReset.style.css');
+
+@import url('./directive/details-page/details-page.style.css');
+
+
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+body>div{
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #0d335e;
+    color: #fff;
+
+}
+
+.navbar>.logo-container>.hamburger-icon{
+    width: 50px;
+    height: 42px;
+    border: 1px solid rgba(199, 193, 193, 0.575);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar>.logo-container>.hamburger-icon div{
+    height: 3px;
+    width: 30px;
+    background-color: rgb(199, 193, 193);
+    margin: 8px auto;
+
+}
+.logo-container{
+    cursor: pointer;
+}
+.navbar .pageName{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  font-family: inherit;
+}
+
+.navbar .userIcon .user-img-logout{
+    float: right;
+}
+.navbar .user-img-logout .userImg{
+    padding-left: 4px;
+}
+.navbar .user-img-logout .userImg .image{
+  width: 50px;
+  height: 50px;
+}
+.navbar .user-img-logout .logOut{
+    cursor: pointer;
+}
+.content{
+    height: calc(100vh - 70px);
+    width: 100%;
+    transition: 1.2s;
+
+}
+.content>div{
+    width: 100%;
+    height: 100%;
+}
+.content .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.success{
+    color: green;
+}
+.warning{
+    color: orange
+}
+.error{
+    color: red;
+}
+.selected-history{
+    border: 4px solid #0d335e8c !important;
+}
